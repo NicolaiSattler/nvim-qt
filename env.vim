@@ -20,8 +20,14 @@ set nowrap
 set noerrorbells
 set noswapfile
 set nobackup
+set nowritebackup
 " set undodir=~/.vim/undodir
 " set undofile
+
+" suggestions by CoC
+set cmdheight=2
+set updatetime=300 "default is 4 sec?
+set shortmess+=c
 
 let mapleader = " "
 " disable netrw
