@@ -1,6 +1,7 @@
 set exrc
 set guicursor=
 set signcolumn
+syntax enable
 
 set tabstop=4 softtabstop=4
 set shiftwidth=4

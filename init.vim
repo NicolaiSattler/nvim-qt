@@ -2,10 +2,7 @@ filetype plugin on
 
 source ~/.config/nvim/env.vim
 source ~/.config/nvim/plugin.vim
-" replaced with nvim-tree
-" source ~/.config/nvim/plugins/NERDTree.vim
 source ~/.config/nvim/plugins/airline.vim
-source ~/.config/nvim/plugins/Omni.vim
 source ~/.config/nvim/plugins/telescope.vim
 source ~/.config/nvim/plugins/nvim-tree.vim
 
