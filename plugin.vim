@@ -21,4 +21,11 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
 
+    " brackets etc.
+    Plug 'Valloric/MatchTagAlways'
+    Plug 'jiangmiao/auto-pairs'
+    
+    " Code completion
+    Plug 'neoclide/coc.nvim'
+    " Plug 'puremourning/vimspector' <-- debugging in vim.. nais..
 call plug#end()
