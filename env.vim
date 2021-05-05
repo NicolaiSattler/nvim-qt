@@ -1,3 +1,6 @@
+set background=dark
+let g:one_allow_italics = 1
+
 set exrc
 set guicursor=
 set signcolumn
@@ -54,4 +57,12 @@ nnoremap <Leader>- :vertical resize -5<CR>
 if has('termguicolors')
 	set termguicolors
 endif
+
+autocmd FileType cs setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+autocmd FileType cs nmap <silent> <buffer> <C-S-b> :!dotnet build<CR>
+autocmd FileType cs nmap <silent> <buffer> <C-S-t> :!dotnet test<CR>
+
+nnoremap <leader>cn <cmd>cnext<cr>
+nnoremap <leader>cp <cmd>cprevious<cr>
+
 
