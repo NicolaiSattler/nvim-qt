@@ -26,6 +26,24 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'jiangmiao/auto-pairs'
     
     " Code completion
-    Plug 'neoclide/coc.nvim'
+    " Plug 'neoclide/coc.nvim'                      unknown error code completion
+    " Plug 'coc-extensions/coc-omnisharp'           unknown error code completion
+    Plug 'prabirshrestha/asyncomplete.vim'
+    Plug 'prabirshrestha/asyncomplete-lsp.vim'
+    Plug 'yami-beta/asyncomplete-omni.vim'
+    Plug 'prabirshrestha/vim-lsp'
+    Plug 'mattn/vim-lsp-settings'
+    " TODO: snippets --> check vim-lsp for configuration.
+
+    Plug 'OmniSharp/omnisharp-vim'
+    Plug 'tpope/vim-dispatch' " check github for config
+    Plug 'Shougo/vimproc.vim', {'do': 'make'}
+    
+    "Fuzzy finder
+    " Plug 'junegunn/fzf', { 'do': { ->fzf#install() } } unknow error code completion
+    
+    "Linting
+    Plug 'dense-analysis/ale'
+
     " Plug 'puremourning/vimspector' <-- debugging in vim.. nais..
 call plug#end()

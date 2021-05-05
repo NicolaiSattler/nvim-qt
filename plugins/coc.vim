@@ -1,4 +1,9 @@
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+" checkout https://github.com/neoclide/coc.nvim
+" for more usefull mappings etc.
+
+" set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+
+let g:coc_global_extensions=['coc-omnisharp', 'coc-json']
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
